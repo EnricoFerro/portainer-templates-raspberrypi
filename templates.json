@@ -1,0 +1,37 @@
+{
+    "type": 1,
+    "title": "Traefik V2",
+    "description": "The Cloud Native Edge Router (Version 2)",
+    "logo": "https://github.com/containous/traefik/blob/master/docs/content/assets/img/traefik.logo.png",
+    "categories": ["proxy"],
+    "platform": "linux",
+    "repository": {
+        "url": "https://github.com/enricoferro/portainer-raspberrypi",
+        "stackfile": "stacks/traefik/docker-stack.yml"
+    },
+    "env": [{
+            "name": "DOCKER_VERSION",
+            "label": "Traefik Docker Version",
+            "select": [{
+                    "text": "Version 2.1",
+                    "value": "v2.2",
+                    "default": true
+                },
+                {
+                    "text": "Version 2.1",
+                    "value": "v2.1"
+                },
+                {
+                    "text": "Version 2.0",
+                    "value": "v2.0"
+                }
+            ],
+            "description": "Some environment variable."
+        },
+        {
+            "name": "HOST_NAME",
+            "label": "Host Name",
+            "description": "Host name of the network"
+        }
+    ]
+}
