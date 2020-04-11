@@ -2,7 +2,7 @@
     "type": 1,
     "title": "Traefik V2",
     "description": "The Cloud Native Edge Router (Version 2)",
-    "logo": "https://github.com/containous/traefik/blob/master/docs/content/assets/img/traefik.logo.png",
+    "logo": "https://raw.githubusercontent.com/containous/traefik/master/docs/content/assets/img/traefik.logo.png",
     "categories": ["proxy"],
     "platform": "linux",
     "repository": {
