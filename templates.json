@@ -1,4 +1,4 @@
-{
+[{
     "type": 1,
     "title": "Traefik V2",
     "description": "The Cloud Native Edge Router (Version 2)",
@@ -6,7 +6,7 @@
     "categories": ["proxy"],
     "platform": "linux",
     "repository": {
-        "url": "https://github.com/enricoferro/portainer-raspberrypi",
+        "url": "https://github.com/EnricoFerro/portainer-templates-raspberrypi",
         "stackfile": "stacks/traefik/docker-stack.yml"
     },
     "env": [{
@@ -34,4 +34,4 @@
             "description": "Host name of the network"
         }
     ]
-}
+}]
