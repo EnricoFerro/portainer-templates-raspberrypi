@@ -13,7 +13,7 @@
             "name": "DOCKER_VERSION",
             "label": "Traefik Docker Version",
             "select": [{
-                    "text": "Version 2.1",
+                    "text": "Version 2.2",
                     "value": "v2.2",
                     "default": true
                 },
